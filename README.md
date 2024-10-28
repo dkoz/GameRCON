@@ -1,9 +1,12 @@
-# GameRCON Client
- This is a console based RCON Client for games that utilize source rcon.
+# GameRCON Client v0.1.3
+ This is a console based RCON Client for games that utilize an RCON protocol
 
 ## Supported Games
 - Minecraft
+- Garry's Mod
+- Rust
 - Ark: Survival Ascended
+- Ark: Survival Evolved
 - Palworld
 - Path of Titans
 
@@ -29,11 +32,13 @@ options:
   -h, --help            show this help message and exit
   -H HOST, --host HOST  Server host address
   -P PORT, --port PORT  Server RCON port
-  -p PASSWORD, --pass PASSWORD
-                        RCON password
+  -p PASSWORD, --password PASSWORD
+                        Server RCON password
   -c COMMAND, --command COMMAND
                         Command to execute on the server
   -v, --version         show program's version number and exit
+  -t TIMEOUT, --timeout TIMEOUT
+                        Connection timeout in seconds (optional)
 ```
 
 ## Batch Script
